@@ -18,7 +18,7 @@ jobs:
         with:
          # 替换成需要同步的用户名，仓库名，分支名。
           source_repo: "https://github.com/KOP-XIAO/QuantumultX.git"
-          source_branch: "main"
+          source_branch: "master"
           destination_branch: "master"
           sync_tags: "true"
           github_token: ${{ secrets.PAT }}
